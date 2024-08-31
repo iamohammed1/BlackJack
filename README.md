@@ -18,17 +18,14 @@ In case of a tie, the bet is returned to the player.
 The dealer stops hitting at 17.
 How to Run the Game
 Clone the Repository:
-bash
-نسخ الكود
-git clone <repository-url>
+git clone https://github.com/iamohammed1/BlackJack
+
 Navigate to the Project Directory:
-bash
-نسخ الكود
 cd blackjack-game
+
 Run the Game:
-bash
-نسخ الكود
 python blackjack.py
+
 How to Play
 You start with $5000 and can bet a portion of your money on each round.
 The game will deal two cards each to you and the dealer.
@@ -38,7 +35,7 @@ Example Code
 Here's a small snippet showing how the game initializes a deck of cards:
 
 python
-نسخ الكود
+
 def getDeck():
     deck = []
     for suit in (HEARTS, DIAMONDS, SPADES, CLUBS):
